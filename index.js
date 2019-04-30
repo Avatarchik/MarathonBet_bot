@@ -28,7 +28,7 @@ bot.on('message', (msg) => {
             console.log(err);
             return;
         }
-        
+         
         var $ = cheerio.load(res.body);
     
         cat = $(".content .sport-category-label").text();
@@ -41,7 +41,7 @@ bot.on('message', (msg) => {
             time = $(this).find('.nobr').text().replace(/\n/g, '').trim();
             $(this).find('.nobr').remove();
             result = $(this).find('.red').text().replace(/\n/g, '').trim();
-
+ 
             upResult = result.split(/(\d:\d)/);
             upTime = time.split(/(\d{2})/);
 
