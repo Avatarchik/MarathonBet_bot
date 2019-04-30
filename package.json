@@ -1,0 +1,17 @@
+{
+  "name": "sport_bot",
+  "version": "1.0.0",
+  "description": "SportBot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alex.T",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "needle": "^2.3.1",
+    "node": "^12.1.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
